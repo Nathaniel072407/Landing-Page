@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Legends: Bang Bang</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      background-color: #1a1a1a;
+    }
+
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/en/3/37/Mobilelegends.png') no-repeat center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    header .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 1.2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    header .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .container {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #4a90e2;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .feature {
+      background-color: #252525;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #50e3c2;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .feature {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Mobile Legends: Bang Bang</h1>
+    <p>The ultimate 5v5 MOBA experience awaits you. Battle with friends and conquer the arena!</p>
+    <a href="#features" class="btn">Play Now</a>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>Why Play Mobile Legends?</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Fast-Paced 5v5 Matches</h3>
+          <p>Experience exciting battles with quick match times averaging 10-15 minutes.</p>
+        </div>
+        <div class="feature">
+          <h3>100+ Heroes</h3>
+          <p>Choose from over 100 heroes, each with unique skills and roles to master.</p>
+        </div>
+        <div class="feature">
+          <h3>Strategic Gameplay</h3>
+          <p>Work with your team, devise strategies, and outsmart your opponents.</p>
+        </div>
+        <div class="feature">
+          <h3>Global Community</h3>
+          <p>Join millions of players worldwide and make new friends as you play.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mobile Legends: Bang Bang. All Rights Reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </p>
+  </footer>
+
+</body>
+</html>
